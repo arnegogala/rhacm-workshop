@@ -4,6 +4,7 @@ metadata:
   name: webserver
   labels:
     app: webserver
+    custom: true
 spec:
   selector:
     matchLabels:
